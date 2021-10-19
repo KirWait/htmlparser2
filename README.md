@@ -1,5 +1,5 @@
 # htmlparser2
-В папке htmlparser2 - сам проект, dumps - содержит файл дампа базы данных parsingresults
+В папке htmlparser2 - сам проект, dump - содержит файл дампа базы данных parsingresults
 Следует открыть htmlparser2, как проект через Intellij idea и запустить ParsingApp
 Перейти на localhost и вставить url в input форму, нажать submit,
 База данных наполнится данными и частоте встречаемости слов на данной странице,
