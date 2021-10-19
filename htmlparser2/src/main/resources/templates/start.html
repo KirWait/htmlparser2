@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>MyWebParser</title>
+</head>
+<body>
+<form  method="POST">
+<label for="url">Enter url to parse</label>
+<input type="text" name="url" id="url" placeholder="Url"/>
+    <button type="submit">Submit!</button>
+<h2>Results which are represented here have been saved to the DB</h2>
+    <div th:each="result : ${results}">
+    <h3 th:inline="text"> [[${result.getKey()}]] : [[${result.getValue()}]]</h3>
+    </div>
+</form>
+</body>
+</html>
